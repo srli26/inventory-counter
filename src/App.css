@@ -1,0 +1,15 @@
+.material-icons.md-size {
+    font-size: 70px !important;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .material-icons.md-size {
+      font-size: 85px !important;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .material-icons.md-size {
+      font-size: 15vw !important;
+    }
+  }
