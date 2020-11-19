@@ -81,13 +81,13 @@ const Home = () => {
                     <Card purpose="counter">
                         <CounterMain>
                             <Button purpose="increment" onClick={() => setCount(count + 1)}>
-                                <span class="material-icons md-size">expand_less</span>
+                                <span className="material-icons md-size">expand_less</span>
                             </Button>
                             <p>{count}</p>
                             {/* Control down arrow */}
                             {count > 0 &&
                                 <Button purpose="increment" onClick={() => setCount(count - 1)}>
-                                    <span class="material-icons md-size">expand_more</span>
+                                    <span className="material-icons md-size">expand_more</span>
                                 </Button>
                             }
                         </CounterMain>

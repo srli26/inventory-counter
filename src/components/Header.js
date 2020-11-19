@@ -10,10 +10,10 @@ const Header = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <Link className="navbar-brand mr-auto" to="/">COUNTERAPP</Link>
-                <div class="collapse navbar-collapse" id="navbarToggler">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <Link class="nav-link" to="/">Home</Link>
+                <div className="collapse navbar-collapse" id="navbarToggler">
+                    <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/">Home</Link>
                         </li>
                     </ul>
                 </div>
